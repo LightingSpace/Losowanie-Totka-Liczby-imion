@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Oleo+Script:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Eater&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900&subset=latin-ext');
+
+.minLotto, .maxLotto, .multiLotto, .wynik-Meczu, .imionaLosuj, .losowaLiczba, .rzutKostki {
+    text-align: center;
+    
+}
+
+.content h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+button {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.resultMaxLotto, .resultMinLotto, .resultMultiLotto {
+    letter-spacing: 0.1rem;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    font-family: 'Bangers', cursive;
+    font-family: 'Oleo Script', cursive;
+}
+
+.resultMaxLotto span, .resultMinLotto span, .resultMultiLotto span {
+    display: inline-block;
+    padding: 1rem;
+    color: #aa8868;
+    border-radius: 50%;
+    border: 10px solid #e5e53d;
+    linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);
+    margin: 0.5rem;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    margin-bottom: 1rem;
+}
+
+.resultMaxLotto span:nth-child(2n), .resultMinLotto span:nth-child(2n), .resultMultiLotto span:nth-child(2n) {
+    color: #1abf34;
+}
+
+.minLotto {
+    padding: 2rem;
+background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.resultMultiLotto span {
+    text-shadow: 0 2px 5px #000000, 0 -1px 1px #000000;    
+    border: 10px solid #926aed;
+    color: #e5e518;
+}
+
+.resultMultiLotto span:nth-child(2n) {
+    color: #54e69d;
+}
+
+.maxLotto {
+    padding: 2rem;
+background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.resultMaxLotto span {
+    color: #d0873f;
+    text-shadow: 0 3px 9px #0902ad, 0px -2px 1px #000000;
+}
+
+.resultMaxLotto span:nth-child(2n) {
+    color: #f2d3d3;
+}
+
+
+.multiLotto {
+    padding: 2rem;
+background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.resultMinLotto span {
+    text-shadow: 0 3px 6px #000000, 0px -2px 1px #000000;    
+    border: 10px solid #ede86a;
+    color: #18d5e5;
+}
+
+.resultMinLotto span:nth-child(2n) {
+    color: #b58181;
+}
+
+button {
+    position: relative;
+    padding: 0.5rem 2rem;
+    font-family: 'Bangers', cursive;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #baff1e;
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
+    transition: all 100ms;
+    box-shadow: 2px 4px 20px 0 #572020;
+}
+
+button:active {
+    background-color: aliceblue;
+    transform: scale(1.2);
+    box-shadow: 4px 8px 45px 1px #572020;
+    z-index: 10;
+}
+
+button:hover {
+    background-color: #ff0014;
+}
+
+.wynik-Meczu {
+    padding: 2rem;
+background: #ec008c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.imionaLosuj {
+    padding: 2rem;
+background: #acb6e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.losowaLiczba {
+    padding: 2rem;
+background: #40E0D0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.rzutKostki {
+    padding: 2rem;
+background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.resultMecz span {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+
+.resultImienia {
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;    
+    letter-spacing: 0.3rem;
+    color: #1140bf;
+    text-shadow: 1px 1px 1px black;
+}
+
+.resultLosowaLiczba {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;    
+}
+
+.resultLiczbaKostki {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;      
+}
+
+header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 2rem;
+background: #F7F8F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+header p {
+   font-family: 'Eater', cursive;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+header h1 {
+    font-family: 'Eater', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    color: #242441;
+    text-shadow: 1px 1px 1px #fdfdfd;
+    text-align: center;
+    border-left: 2px solid red;
+    padding-left: 1rem;
+}
+
+footer {
+    padding: 2rem;
+background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer p {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}

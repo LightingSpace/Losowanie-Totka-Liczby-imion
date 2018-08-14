@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Mari" content="">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+      <header>
+         <p>WITAMY ZMĘCZONEGO GRACZA NA NASZEJ STRONIE</p>
+          <h1>LOSUJ ŚMIAŁO, LOTKA, LICZBY IMIONA, MECZE ;)</h1>
+      </header>
+       <div class="content">
+            <div class="maxLotto">
+               <h2>SEKCJA DUŻEGO LOTKA</h2>
+                <button id="generujMaxLotto">DUŻY LOTEK</button>
+                <div class="resultMaxLotto"></div>
+            </div>
+            
+            <div class="multiLotto">
+               <h2>SEKCJA MULTI LOTKA</h2>
+                <button id="generujMultiLotto">Multi LOTEK</button>
+                <div class="resultMultiLotto"></div>
+            </div>            
+            
+            <div class="minLotto">
+               <h2>SEKCJA MINI LOTKA</h2>
+                <button id="generujMinLotto">MAŁY LOTEK</button>
+                <div class="resultMinLotto"></div>
+            </div>
+            
+            <div class="wynik-Meczu">
+               <h2>TUTAJ MOŻESZ WYLOSOWAĆ WYNIK MECZU</h2>
+                <button id="generujMecz">Losuj Wynik Meczu</button>
+                <div class="resultMecz"><span id="resultOneMecz"></span><span id="dwu-Kropek">:</span><span id="resultTwoMecz"></span></div>
+            </div>
+            
+            <div class="imionaLosuj">
+               <h2>LOSUJ IMIE DLA SWOJEGO DZIECKA</h2>
+                <button id="generujImieMeskie">Imię Męskie</button>
+                <button id="generujImieZenskie">Imię Żeńskie</button>                
+                <div class="resultImienia"></div>
+            </div>
+            
+            <div class="losowaLiczba">
+               <h2>LOSOWA LICZBA 0 - 9999</h2>
+                <button id="generujLosowaLiczbe">Losowa Liczba</button>
+                <div class="resultLosowaLiczba"></div>
+            </div>
+            
+            <div class="rzutKostki">
+               <h2>NIE MASZ KOSTKI DO GRY POD RĘKĄ ?!! <br> skorzystaj z naszego losownika ;)</h2>
+                <button id="generujLiczbeKostki">Rzuć Kostką</button>
+                <div class="resultLiczbaKostki"></div>
+            </div>
+            
+            <footer>
+                <p>NEVERENDING DREAMWORS DEVELOPMENT</p>
+            </footer>    
+        </div>
+        
+        <script src="meskie.js"></script>
+        <script src="zenskie.js"></script>
+        <script src="jscript.js"></script>                    
+    </body>
+</html>
