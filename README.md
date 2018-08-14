@@ -5,6 +5,7 @@ Możesz losować między innymi:
     DUŻEGO LOTKA , LOTTO
     MAŁEGO LOTKA, MINI LOTTO
     MULTI LOTTO
+    LOSOWANIE WYNIKU MECZU
     
     LICZBY
     
