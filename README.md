@@ -2,8 +2,9 @@ Program do Losowania,
 
 Możesz losować między innymi:
 
-    DUŻEGO LOTKA
-    MAŁEGO LOTKA
+    DUŻEGO LOTKA , LOTTO
+    MAŁEGO LOTKA, MINI LOTTO
+    MULTI LOTTO
     
     LICZBY
     
